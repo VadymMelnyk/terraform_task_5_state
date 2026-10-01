@@ -10,7 +10,7 @@ terraform {
     resource_group_name  = "tfstate"
     storage_account_name = "tfstatesamelnyk"
     container_name       = "tfstate"
-    key                  = "terraform.tfstate"
+    key                  = "prod.terraform.tfstate"
     use_oidc             = true
   }
 }
