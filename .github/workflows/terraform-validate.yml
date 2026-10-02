@@ -11,9 +11,9 @@ permissions:
   issues: write
 
 env:
-  ARM_CLIENT_ID: "${{ secrets.AZURE_CLIENT_ID }}"
-  ARM_SUBSCRIPTION_ID: "${{ secrets.AZURE_SUBSCRIPTION_ID }}"
-  ARM_TENANT_ID: "${{ secrets.AZURE_TENANT_ID }}"
+  ARM_CLIENT_ID: "56f44c9c-e08a-4823-874b-ebfab05eb777"
+  ARM_SUBSCRIPTION_ID: "28a01c4a-2cf6-4ed2-aa6a-e179e4206722"
+  ARM_TENANT_ID: "5c4e829e-a91c-4cf7-8518-74f1db71abea"
 
 jobs:
   terraform_validate:
